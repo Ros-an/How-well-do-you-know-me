@@ -42,8 +42,6 @@ function game(){
   
 for(var i=0; i<quizQuestion.length ;i++){
   play(quizQuestion[i].question,quizQuestion[i].answer);
-
-  console.log("YOUR SCORED: ",score);
 }
 
 }
@@ -51,3 +49,5 @@ for(var i=0; i<quizQuestion.length ;i++){
 
 welcome();
 game();
+
+console.log("YOUR SCORED: ",score);
